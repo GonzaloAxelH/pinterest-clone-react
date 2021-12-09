@@ -37,7 +37,7 @@ const Button = styled.a`
 const ButtonDefault = ({ label, type }) => {
   const backgroundColor = type === "primary" ? "#111111" : "#fff";
   const backgroundColorHover =
-    type == "primary" ? "#111111" : "rgb(239,239,239)";
+    type === "primary" ? "#111111" : "rgb(239,239,239)";
   const color = type === "primary" ? "#fff" : "#111111";
   return (
     <Button
